@@ -1,6 +1,6 @@
 # Arduino Arrhythmia Detector (Real-Time ECG Processing)
 
-#Overview
+## Overview
 Experimental implementation of a real-time arrhythmia detection algorithm on Arduino UNO R4.
 The system processes ECG signals acquired through an analog front-end module and performs peak detection and R-R interval analysis for heart rate calculation and irregular rhythm detection.
 
@@ -8,7 +8,7 @@ This project was developed for embedded DSP evaluation purposes and experimental
 
 ---
  
-##Objectives:
+## Objectives:
 - Acquire ECG signal via ADC.
 - Detect R-peaks using amplitude thresholding.
 - Compute heart rate using R-R interval measurement.
@@ -17,7 +17,7 @@ This project was developed for embedded DSP evaluation purposes and experimental
 
 ---
 
-##Hardware Setup:
+## Hardware Setup:
 - Arduino UNO R4 (RA4M1 – ARM Cortex-M4)
 - ECG analog front-end module (with built-in filtering stage)
 - Signal generator (used for experimental validation)
@@ -25,7 +25,7 @@ This project was developed for embedded DSP evaluation purposes and experimental
 
 ---
 
-#Signal Processing Flow:
+## Signal Processing Flow:
 1. Real-time ECG acquisition via ADC.
 2. Filtered signal input from analog front-end.
 3. Peak detection using dynamic amplitude threshold.
@@ -36,7 +36,7 @@ This project was developed for embedded DSP evaluation purposes and experimental
 
 ---
 
-#Experimental Validation
+## Experimental Validation
 
 Two testing stages were performed:
   Real ECG acquisition (self-recorded signal).
@@ -55,7 +55,7 @@ Real-Time Considerations:
 
 ---
 
-#Limitations
+## Limitations
   Simplified arrhythmia detection logic.
   No clinical-grade validation.
   Fixed threshold approach.
@@ -63,7 +63,7 @@ Real-Time Considerations:
 
 ---
 
-#Future Improvements 
+## Future Improvements 
   Adaptive thresholding.
   Digital band-pass filtering optimized for ECG.
   Noise rejection improvements.
@@ -72,5 +72,5 @@ Real-Time Considerations:
 
 ---
 
-#Disclaimer
+## Disclaimer
 This implementation is for experimental and educational purposes only and is not intended for medical diagnosis.
