@@ -1,4 +1,4 @@
-#Arduino Arrhythmia Detector (Real-Time ECG Processing)
+# Arduino Arrhythmia Detector (Real-Time ECG Processing)
 
 #Overview
 Experimental implementation of a real-time arrhythmia detection algorithm on Arduino UNO R4.
