@@ -1,0 +1,21 @@
+# Arduino build files
+*.ino.cpp
+*.ino.cpp.d
+*.ino.eep
+*.ino.elf
+*.hex
+
+# Arduino IDE
+*.arduino
+*.tmp
+
+# Compiled Object files
+*.o
+*.obj
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
